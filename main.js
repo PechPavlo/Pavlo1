@@ -63,6 +63,11 @@ for (; num1 < 100; num1++) {
 let smile = ":)"
 let emptString =" "
 for (let num2 = 1; num2 < 5; num2++) {
-    console.log(smile + emptString );
+    console.log(smile += emptString );
+    
+}
+
+for (let index = 0; index < array.length; index++) {
+    const element = array[index];
     
 }
