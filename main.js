@@ -49,28 +49,21 @@ let num1 = 0
 
 for (; num1 < 100; num1++) {
     if (num1%3==0 && num1%5==0) {
-        console.log("FizzBuzz ")
+        console.log(`FizzBuzz ${num1}`)
     };
     if (num1%3==0 && num1%5>0) {
-        console.log("Fizz")
+        console.log(`Fizz ${num1}`)
     };
     if (num1%3>0 && num1%5==0) {
-        console.log("Buzz")
+        console.log(`Buzz ${num1}`)
     };
     
 }
 
 let smile = ":)"
-let emptString =" "
-for (let num2 = 1; num2 < 5; num2++) {
-    console.log(smile += emptString );
-    
-}
 
-for (let index = 0; index < array.length; index++) {
-    const element = array[index];
-    
+for (let num2 = 0; num2 <= 5; num2++) {
+    console.log(smile.repeat (num2) );
 }
-
-if
+// clas work 05.03.2020
 
